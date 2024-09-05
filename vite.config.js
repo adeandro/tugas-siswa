@@ -3,6 +3,6 @@ import react from "@vitejs/plugin-react";
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: "/tugas-siswa",
+  base: "https://adeandro.github.io/tugas-siswa/",
   plugins: [react()],
 });
