@@ -47,13 +47,13 @@ function Home() {
           </div>
           <div className="flex flex-wrap gap-4 p-4 justify-center">
             <button
-              onClick={() => navigate("/SebelasA")}
+              onClick={() => navigate("/tugas-siswa/SebelasA")}
               className="bg-orange-500 text-white py-2 px-4 rounded-sm hover:bg-orange-600 focus:outline-none focus:ring-2 focus:ring-orange-300"
             >
               XI.1
             </button>
             <button
-              onClick={() => navigate("/SebelasB")}
+              onClick={() => navigate("/tugas-siswa/SebelasB")}
               className="bg-orange-500 text-white py-2 px-4 rounded-sm hover:bg-orange-600 focus:outline-none focus:ring-2 focus:ring-orange-300"
             >
               XI.2
