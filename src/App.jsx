@@ -11,7 +11,7 @@ function App() {
         <Route path="/tugas-siswa" element={<Home />} />
         <Route path="/tugas-siswa/SebelasA" element={<SebelasA />} />
         <Route path="/tugas-siswa/SebelasB" element={<SebelasB />} />
-        <Route path="/*" element={<NotFound />} />
+        <Route path="/tugas-siswa/*" element={<NotFound />} />
       </Routes>
     </Router>
   );
